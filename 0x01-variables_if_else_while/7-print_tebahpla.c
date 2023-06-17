@@ -5,14 +5,13 @@
  */
 int main(void)
 {
-        int b;
+	int b = 122;
 
-        b == "0";
-        for (b = 0; b <= 9; b++)
-        {
-                putchar(b);
-
-        }
-        putchar('\n');
-        return (0);
+	while (b >= 97)
+	{
+		putchar(b);
+		b--;
+	}
+	putchar('\n');
+	return (0);
 }
