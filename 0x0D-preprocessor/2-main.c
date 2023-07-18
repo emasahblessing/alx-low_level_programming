@@ -1,4 +1,3 @@
-2-main.c
 #include <stdio.h>
 
 /**
